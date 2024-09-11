@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Manthan Tekade, an IT student from Nagpur showcasing skills, education, projects, and contact information.">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/046ec1d594.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo" alt="Manthan Tekade Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+               
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1>Hi, I'm <span> Chinmay Tekade</span><br>From Nagpur</h1>
+        </div>
+    </header>
+    <script src="script.js"></script>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/me.JPG" alt="Chinmay Tekade">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Chinmay. I live in Nagpur. I completed my matriculation from Rajendra High School with an aggregate of 87%, and I completed my high school education from Shri Shivaji Science College, Nagpur, scoring 73% in high school.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        <p class="tab-links" onclick="opentab('achievement', event)">Achievement</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Learning:</span> Always interested in learning new things</li>
+                            <li><span>Languages:</span> C, Java, Python</li>
+                            <li><span>Projects:</span> Hotel management system in Python, Calorie calculator in Java, etc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th:</span> From Nagpur, scored 87%</li>
+                            <li><span>12th:</span> From Nagpur, scored 73%</li>
+                            <li><span>Engineering:</span> Currently pursuing from Nagpur</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>Sports:</span> Gold medalist in International Federation 2018 Taekwondo</li>
+                            <li><span>Exams:</span> Cracked JEE, IMUCET, NEET</li>
+                            <li><span>Events:</span> Participated in various competitions and awarded certificates and medals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Education</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-school"></i>
+                    <h2>Matriculation</h2>
+                    <p>I passed my 10th from Shri Rajendra High School, Nagpur, where I scored 87 percent in 2020. I then joined Shri Shivaji Science College, Nagpur for my further studies.</p>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h2>12th</h2>
+                    <p>I passed my 12th from Shri Shivaji Science College, Nagpur, where I scored 73 percent in 2022. After clearing JEE Mains, I joined Yeshwantrao Chavan College of Engineering (YCCE), Nagpur for my further studies.</p>
+                </div>
+                <div> 
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Graduation</h2>
+                    <p>Currently, I am pursuing my Graduation from Yeshwantrao Chavan College of Engineering (YCCE), Nagpur, and I am in the 3rd year in the field of Information Technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/c.png" alt="C Project">
+                    <div class="layer">
+                        <h3>Mini Project</h3>
+                        <p>This project was developed in C language.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" aria-label="View Project"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/java.png" alt="Java Project">
+                    <div class="layer">
+                        <h3>Mini Project</h3>
+                        <p>This project was developed in Java language.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" aria-label="View Project"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/TAEK.png" alt="Taekwondo Project">
+                    <div class="layer">
+                        <h3>Mini  Project</h3>
+                        <p>This project was developed in Python language.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" aria-label="View Project"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-brands fa-telegram" aria-hidden="true"></i> <a href="mailto:tekadechinmay10@gmail.com">tekadechinmay10@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+918421689811">8421689811</a></p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="img/RESUMECHINMAY.pdf" download class="btn">DOWNLOAD CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required aria-required="true">
+                            <input type="email" name="email" placeholder="Your Email" required aria-required="true">
+                            <textarea name="message" rows="6" placeholder="Your Message" required aria-required="true"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
